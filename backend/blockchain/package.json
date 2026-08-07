@@ -1,0 +1,13 @@
+{
+  "name": "velantra-blockchain",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:mumbai": "hardhat run scripts/deploy.js --network mumbai"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6",
+    "dotenv": "^16.4.5"
+  }
+}
